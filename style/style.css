@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/media/4.png),linear-gradient(240.51deg, rgba(52, 138, 199, 0.93) -30.38%, rgba(7, 32, 44, 0.85) 114.23%);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.shoes-wala{
+    font-size: 45px;
+    color: white;
+}
+h1{
+    font-size: 45px;
+}
+.name{
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.menu-item{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.about-img img{
+    width: 50vw;
+    height: 100%;
+    object-fit: contain;
+}
+.about{
+    display: flex;
+    height: 70wh;
+}
+.about-text{
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+    gap: 60px;
+}
+.about-head{
+    width: 70%;
+    font-size: 100px;
+    color:white;
+}
+.about-p{
+    width: 70%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+.buy-now{
+font-size: 32px;
+line-height: 200%;
+display: flex;
+justify-content: center;
+color: #000000;
+width: 246px;
+background: #FFFFFF;
+border-radius: 40px;
+}
+.link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
